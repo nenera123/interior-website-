@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Featured interior design projects — case studies from luxury penthouses to minimalist studios." />
+  <title>Projects | Aesthetic Interiors</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-main">Aesthetic Interiors</span><span class="logo-sub">Interior Design Studio</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="rooms.html">Rooms</a></li>
+        <li><a href="styles.html">Styles</a></li><li><a href="projects.html">Projects</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m8.66-9H21M3 12H2m15.36-6.36-.71.71M6.34 17.66l-.71.71M17.66 17.66l.71.71M6.34 6.34l-.71-.71M12 7a5 5 0 100 10A5 5 0 0012 7z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="rooms.html">Rooms</a>
+    <a href="styles.html">Styles</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  </div>
+
+  <header class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1800&q=85')"></div>
+    <div class="page-hero-content">
+      <div class="page-hero-label">Case Studies</div>
+      <h1>Featured <em style="font-style:italic; color:var(--gold-light)">Projects</em></h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="projects-heading">
+      <div class="section-header center reveal" style="margin-bottom:60px;">
+        <div class="section-label">Our Work</div>
+        <h2 id="projects-heading">Spaces We've<br><em>Transformed</em></h2>
+        <p class="section-desc">From intimate studios to sprawling penthouses, each project is a unique collaboration between our vision and our clients' lives.</p>
+      </div>
+
+      <div class="projects-masonry" role="list">
+
+        <article class="project-card reveal" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=700&q=85" alt="Luxury penthouse living room" loading="lazy" style="height: 420px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Luxury</span>
+              <span class="project-meta-item">New York</span>
+            </div>
+            <h3>The Manhattan Penthouse</h3>
+            <p>A 4,200 sq ft full-floor penthouse in Midtown Manhattan. The brief: create a home that felt like a private members' club. Gold-veined marble, bespoke cabinetry, and custom lighting tell the story of quiet luxury.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&q=85" alt="Minimalist studio apartment" loading="lazy" style="height: 300px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Minimalist</span>
+              <span class="project-meta-item">Tokyo</span>
+            </div>
+            <h3>Tokyo Minimalist Studio</h3>
+            <p>A 48m² studio designed to feel like a meditative retreat. Every millimeter planned. Custom joinery hides an entire wardrobe, a full kitchen, and a Murphy bed.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-2" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700&q=85" alt="Scandinavian family home" loading="lazy" style="height: 360px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Scandinavian</span>
+              <span class="project-meta-item">Stockholm</span>
+            </div>
+            <h3>Scandinavian Family Home</h3>
+            <p>A 1960s Swedish villa transformed into a warm family sanctuary. Light oak floors, linen upholstery, and carefully selected antiques create layers of comfort and character.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=700&q=85" alt="Modern apartment" loading="lazy" style="height: 350px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Modern</span>
+              <span class="project-meta-item">London</span>
+            </div>
+            <h3>East London Modern Apartment</h3>
+            <p>A three-bedroom conversion in Shoreditch. The challenge: retain the building's industrial character while creating a warm, contemporary family home. Polished concrete meets natural walnut.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1537726235470-8504e3beef77?w=700&q=85" alt="Industrial loft" loading="lazy" style="height: 300px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Industrial</span>
+              <span class="project-meta-item">Brooklyn</span>
+            </div>
+            <h3>Brooklyn Warehouse Loft</h3>
+            <p>A former textile factory converted into 6,000 sq ft of dramatic living space. Original brickwork and steel beams preserved and celebrated alongside bespoke furnishings.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-2" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1617103996702-96ff29b1c467?w=700&q=85" alt="Bohemian villa" loading="lazy" style="height: 380px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Bohemian</span>
+              <span class="project-meta-item">Marrakech</span>
+            </div>
+            <h3>Marrakech Riad Renovation</h3>
+            <p>A 400-year-old riad lovingly restored and reimagined. Zellij tile, hand-carved plaster, and global textiles collected by the owners over decades come together in a celebration of craft.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=700&q=85" alt="Smart home interior" loading="lazy" style="height: 320px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Modern</span>
+              <span class="project-meta-item">Singapore</span>
+            </div>
+            <h3>Singapore Smart Home</h3>
+            <p>A fully integrated smart home where technology disappears into the design. Voice-controlled lighting, hidden screens, and automated climate systems operate behind seamless, beautiful surfaces.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" role="listitem">
+          <img class="project-card-img" src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&q=85" alt="Luxury bedroom suite" loading="lazy" style="height: 280px;" />
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-meta-item">Luxury</span>
+              <span class="project-meta-item">Dubai</span>
+            </div>
+            <h3>Dubai Villa Master Suite</h3>
+            <p>A 1,200 sq ft master suite designed for a hospitality client. The brief: five-star hotel, private home. Hand-stitched headboard, Italian marble bathroom, and a custom dressing room.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo-main">Aesthetic Interiors</div>
+          <div class="footer-logo-sub">Interior Design Studio</div>
+          <p>Creating beautiful, functional spaces that reflect the unique personality and lifestyle of each of our clients.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Pinterest"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/></svg></a>
+            <a href="#" class="social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4l16 16M4 20L20 4"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="rooms.html">Rooms</a></li><li><a href="styles.html">Design Styles</a></li><li><a href="projects.html">Projects</a></li></ul></div>
+        <div class="footer-col"><h4>Services</h4><ul><li><a href="#">Residential Design</a></li><li><a href="#">Commercial Spaces</a></li><li><a href="#">Interior Consultation</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li><a href="contact.html">Get in Touch</a></li><li><a href="about.html">About Us</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2024 Aesthetic Interiors. All rights reserved.</p><p>Designed with intention.</p></div>
+    </div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg></button>
+  <script src="script.js"></script>
+</body>
+</html>
