@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore interior design ideas for every room — living room, bedroom, kitchen, bathroom, and home office." />
+  <title>Rooms | Aesthetic Interiors</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-main">Aesthetic Interiors</span><span class="logo-sub">Interior Design Studio</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="rooms.html">Rooms</a></li>
+        <li><a href="styles.html">Styles</a></li><li><a href="projects.html">Projects</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m8.66-9H21M3 12H2m15.36-6.36-.71.71M6.34 17.66l-.71.71M17.66 17.66l.71.71M6.34 6.34l-.71-.71M12 7a5 5 0 100 10A5 5 0 0012 7z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="rooms.html">Rooms</a>
+    <a href="styles.html">Styles</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  </div>
+
+  <header class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1800&q=85')"></div>
+    <div class="page-hero-content">
+      <div class="page-hero-label">Room by Room</div>
+      <h1>Room <em style="font-style:italic; color:var(--gold-light)">Categories</em></h1>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Living Room -->
+    <section class="room-section" id="living" aria-labelledby="living-heading">
+      <div class="room-section-inner">
+        <div class="room-section-img reveal">
+          <img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=900&q=85" alt="Luxury modern living room" loading="lazy" />
+        </div>
+        <div class="room-section-text">
+          <div class="section-label reveal">01 — Living Room</div>
+          <h2 class="reveal" id="living-heading">The Heart of<br><em>Your Home</em></h2>
+          <p class="reveal reveal-delay-1">The living room is where life happens — conversations, celebrations, quiet evenings. We design these spaces to be simultaneously beautiful and deeply livable, reflecting your personality while accommodating how you actually live.</p>
+          <p class="reveal reveal-delay-2">Thoughtful furniture arrangement creates natural conversation zones, while careful lighting design transforms the mood from energizing daytime to intimate evenings.</p>
+          <div class="room-features reveal reveal-delay-2">
+            <div class="room-feature"><strong>Furniture Arrangement</strong><span>Conversation-friendly layouts that flow naturally</span></div>
+            <div class="room-feature"><strong>Lighting Design</strong><span>Layered ambient, task, and accent lighting</span></div>
+            <div class="room-feature"><strong>Color Palette</strong><span>Curated tones that anchor the space</span></div>
+            <div class="room-feature"><strong>Decor & Art</strong><span>Curated objects that tell your story</span></div>
+          </div>
+          <a href="gallery.html" class="btn btn-gold reveal reveal-delay-3">Browse Living Rooms</a>
+        </div>
+      </div>
+      <!-- Living Room Extra Images -->
+      <div style="max-width:1400px; margin: 48px auto 0; padding: 0 40px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px;">
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" alt="Living room sofa" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400&q=80" alt="Mid century living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&q=80" alt="Industrial living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=400&q=80" alt="Coastal living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?w=400&q=80" alt="Botanical living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1615529328331-f8917597711f?w=400&q=80" alt="Art deco living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=400&q=80" alt="Japandi living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?w=400&q=80" alt="Velvet sofa" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=400&q=80" alt="Boho living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&q=80" alt="Minimal living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden; border-radius:4px;"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80" alt="Nordic living" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+      </div>
+    </section>
+
+    <!-- Bedroom -->
+    <section class="room-section" id="bedroom" aria-labelledby="bedroom-heading">
+      <div class="room-section-inner">
+        <div class="room-section-img reveal">
+          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=900&q=85" alt="Serene minimalist bedroom" loading="lazy" />
+        </div>
+        <div class="room-section-text">
+          <div class="section-label reveal">02 — Bedroom</div>
+          <h2 class="reveal" id="bedroom-heading">Your Personal<br><em>Sanctuary</em></h2>
+          <p class="reveal reveal-delay-1">The bedroom is the most intimate room in the home — a private retreat where you begin and end each day. We design bedrooms that promote rest and restoration while expressing your most personal aesthetic preferences.</p>
+          <p class="reveal reveal-delay-2">From the perfect mattress position to blackout layering and acoustic comfort, every decision is made with your sleep quality and morning experience in mind.</p>
+          <div class="room-features reveal reveal-delay-2">
+            <div class="room-feature"><strong>Bed Positioning</strong><span>Feng shui-informed focal placement</span></div>
+            <div class="room-feature"><strong>Textile Layers</strong><span>Breathable, tactile, and beautiful bedding</span></div>
+            <div class="room-feature"><strong>Storage Solutions</strong><span>Hidden and elegant organization systems</span></div>
+            <div class="room-feature"><strong>Ambient Lighting</strong><span>Warm, dimmable for restful evenings</span></div>
+          </div>
+          <a href="gallery.html" class="btn btn-gold reveal reveal-delay-3">Browse Bedrooms</a>
+        </div>
+      </div>
+      <div style="max-width:1400px; margin: 48px auto 0; padding: 0 40px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px;">
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=400&q=80" alt="Luxury bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Dark bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=400&q=80" alt="White bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80" alt="Boho bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=400&q=80" alt="Hotel bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1567225557594-88d73398014a?w=400&q=80" alt="Warm bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&q=80" alt="Urban loft bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=400&q=80" alt="Canopy bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&q=80" alt="Minimalist bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Guest bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" alt="Scandi bedroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=400&q=80" alt="Luxury suite" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+      </div>
+    </section>
+
+    <!-- Kitchen -->
+    <section class="room-section" id="kitchen" aria-labelledby="kitchen-heading">
+      <div class="room-section-inner">
+        <div class="room-section-img reveal">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=85" alt="Modern kitchen design" loading="lazy" />
+        </div>
+        <div class="room-section-text">
+          <div class="section-label reveal">03 — Kitchen</div>
+          <h2 class="reveal" id="kitchen-heading">Where Form Meets<br><em>Function</em></h2>
+          <p class="reveal reveal-delay-1">The kitchen is the most technically complex room in the home, requiring precision in its design to function beautifully. We approach kitchens as a marriage of culinary ergonomics and visual elegance.</p>
+          <p class="reveal reveal-delay-2">Whether you're an avid home chef or prefer simple meals, the kitchen should work intuitively for your lifestyle, with surfaces, storage, and lighting all working in harmony.</p>
+          <div class="room-features reveal reveal-delay-2">
+            <div class="room-feature"><strong>Work Triangle</strong><span>Optimized flow between key work zones</span></div>
+            <div class="room-feature"><strong>Cabinetry</strong><span>Custom storage for every utensil and appliance</span></div>
+            <div class="room-feature"><strong>Surfaces</strong><span>Durable, beautiful countertop materials</span></div>
+            <div class="room-feature"><strong>Task Lighting</strong><span>Bright, shadow-free preparation areas</span></div>
+          </div>
+          <a href="gallery.html" class="btn btn-gold reveal reveal-delay-3">Browse Kitchens</a>
+        </div>
+      </div>
+      <div style="max-width:1400px; margin: 48px auto 0; padding: 0 40px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px;">
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400&q=80" alt="Open kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=400&q=80" alt="White kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?w=400&q=80" alt="Farmhouse kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=400&q=80" alt="Navy kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80" alt="Modern kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=400&q=80" alt="Dark kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80" alt="Sage kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80" alt="Scandi kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=400&q=80" alt="Island kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400&q=80" alt="Retro kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?w=400&q=80" alt="Copper kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=400&q=80" alt="Japanese kitchen" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+      </div>
+    </section>
+
+    <!-- Bathroom -->
+    <section class="room-section" id="bathroom" aria-labelledby="bathroom-heading">
+      <div class="room-section-inner">
+        <div class="room-section-img reveal">
+          <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=85" alt="Spa luxury bathroom" loading="lazy" />
+        </div>
+        <div class="room-section-text">
+          <div class="section-label reveal">04 — Bathroom</div>
+          <h2 class="reveal" id="bathroom-heading">A Daily<br><em>Spa Experience</em></h2>
+          <p class="reveal reveal-delay-1">We believe the bathroom should be more than functional — it should be a place of genuine renewal. Our bathroom designs borrow from the finest spa traditions, creating environments that make your daily routine feel special.</p>
+          <p class="reveal reveal-delay-2">Natural stone, warm lighting, and thoughtful fixture selection transform even modest bathrooms into spaces of quiet luxury.</p>
+          <div class="room-features reveal reveal-delay-2">
+            <div class="room-feature"><strong>Materials</strong><span>Stone, wood, and artisan ceramic</span></div>
+            <div class="room-feature"><strong>Fixtures</strong><span>Statement pieces that anchor the design</span></div>
+            <div class="room-feature"><strong>Spa Features</strong><span>Rain showers, soaking tubs, heated floors</span></div>
+            <div class="room-feature"><strong>Mirror & Light</strong><span>Flattering, layered bathroom lighting</span></div>
+          </div>
+          <a href="gallery.html" class="btn btn-gold reveal reveal-delay-3">Browse Bathrooms</a>
+        </div>
+      </div>
+      <div style="max-width:1400px; margin: 48px auto 0; padding: 0 40px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px;">
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&q=80" alt="Luxury bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=400&q=80" alt="Black marble bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&q=80" alt="Walk-in shower" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80" alt="Freestanding bath" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=400&q=80" alt="Modern bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&q=80" alt="Natural stone bath" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=400&q=80" alt="Terrazzo bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&q=80" alt="Minimal bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1620626011761-996317702a8e?w=400&q=80" alt="Designer bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=400&q=80" alt="Double vanity" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&q=80" alt="Spa bathroom" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&q=80" alt="Outdoor bath" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+      </div>
+    </section>
+
+    <!-- Home Office -->
+    <section class="room-section" id="office" aria-labelledby="office-heading">
+      <div class="room-section-inner">
+        <div class="room-section-img reveal">
+          <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=900&q=85" alt="Elegant home office" loading="lazy" />
+        </div>
+        <div class="room-section-text">
+          <div class="section-label reveal">05 — Home Office</div>
+          <h2 class="reveal" id="office-heading">Designed for<br><em>Deep Focus</em></h2>
+          <p class="reveal reveal-delay-1">A home office should support your best work — whether that means serene minimalism, inspiring creativity, or efficient organization. We design workspaces that enhance concentration, minimize distraction, and look impressive on video calls.</p>
+          <p class="reveal reveal-delay-2">Ergonomics, acoustics, and lighting are the unseen foundations of a productive workspace, while aesthetics ensure you actually want to spend time there.</p>
+          <div class="room-features reveal reveal-delay-2">
+            <div class="room-feature"><strong>Ergonomics</strong><span>Chair, desk height, and monitor positioning</span></div>
+            <div class="room-feature"><strong>Natural Light</strong><span>Positioned to minimize screen glare</span></div>
+            <div class="room-feature"><strong>Cable Management</strong><span>Clean, hidden technology integration</span></div>
+            <div class="room-feature"><strong>Acoustic Design</strong><span>Materials that absorb sound for focus</span></div>
+          </div>
+          <a href="gallery.html" class="btn btn-gold reveal reveal-delay-3">Browse Home Offices</a>
+        </div>
+      </div>
+      <div style="max-width:1400px; margin: 48px auto 0; padding: 0 40px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px;">
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&q=80" alt="Home office" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&q=80" alt="Minimal desk" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?w=400&q=80" alt="Library office" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1593642532400-2682810df593?w=400&q=80" alt="Dark office" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="Open office" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&q=80" alt="Bright office" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&q=80" alt="Corner nook" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=400&q=80" alt="Design studio" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&q=80" alt="Minimal workspace" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&q=80" alt="Industrial workspace" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=400&q=80" alt="Creative workspace" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+        <div style="overflow:hidden;border-radius:4px;"><img src="https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=400&q=80" alt="Zen workspace" loading="lazy" style="width:100%;height:220px;object-fit:cover;transition:transform .5s;display:block;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'"/></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo-main">Aesthetic Interiors</div>
+          <div class="footer-logo-sub">Interior Design Studio</div>
+          <p>Creating beautiful, functional spaces that reflect the unique personality and lifestyle of each of our clients.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="social-link" aria-label="Pinterest"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.236 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.598-.299-1.482c0-1.388.806-2.428 1.808-2.428.853 0 1.267.641 1.267 1.408 0 .858-.546 2.14-.828 3.33-.236.995.499 1.806 1.476 1.806 1.771 0 2.993-2.306 2.993-5.026 0-2.073-1.362-3.63-3.824-3.63-2.793 0-4.536 2.086-4.536 4.419 0 .804.237 1.371.609 1.806.167.197.19.276.129.504-.044.166-.146.566-.188.724-.061.232-.247.315-.453.229-1.257-.513-1.843-1.892-1.843-3.44 0-2.562 2.175-5.67 6.49-5.67 3.5 0 5.821 2.567 5.821 5.318 0 3.664-2.037 6.408-5.012 6.408-1.004 0-1.948-.54-2.27-1.149l-.617 2.378c-.224.86-.828 1.937-1.233 2.592.929.285 1.912.44 2.929.44C17.523 22 22 17.523 22 12S17.523 2 12 2z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4l16 16M4 20L20 4"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="rooms.html">Rooms</a></li><li><a href="styles.html">Design Styles</a></li><li><a href="projects.html">Projects</a></li></ul></div>
+        <div class="footer-col"><h4>Services</h4><ul><li><a href="#">Residential Design</a></li><li><a href="#">Commercial Spaces</a></li><li><a href="#">Interior Consultation</a></li><li><a href="#">Space Planning</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li><a href="contact.html">Get in Touch</a></li><li><a href="about.html">About Us</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2024 Aesthetic Interiors. All rights reserved.</p><p>Designed with intention.</p></div>
+    </div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg></button>
+  <script src="script.js"></script>
+</body>
+</html>
